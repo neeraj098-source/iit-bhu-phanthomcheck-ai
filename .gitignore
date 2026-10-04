@@ -1,0 +1,28 @@
+# Environment variables and secrets
+.env
+.env.*
+*.env
+backend/.env
+frontend/.env
+backend/.env.*
+frontend/.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+backend/venv/
+.venv/
+env/
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# System files
+.DS_Store
+Thumbs.db
